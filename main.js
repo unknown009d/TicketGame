@@ -49,11 +49,12 @@ let getLottery = el => {
             `;
         }
         el.style.display = "none";
+        document.querySelector(".secondaryText").style.display = "none";
     }
     else {
         ltForm.innerHTML = `
                 <div>
-                    <p style="color: #b82020;">Please select an ticket...</p><br>
+                    <p style="color: #b82020;">Please select a valid ticket...</p><br>
                     <img src='dance.gif' class="res">
                 </div>
             `;
