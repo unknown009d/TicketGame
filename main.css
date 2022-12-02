@@ -7,6 +7,7 @@
     font-family: "Roboto", "Montserrat", sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
+
 body{
     width: 100%;
     max-width: 1440px;
@@ -107,5 +108,21 @@ body .secondaryText{
     .actions .btn{
         width: 100%;
         padding: 1rem 1.4rem;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #161616;
+        color: #f1f1f1;
+    }
+    body h1{
+        color: #f1f1f1;
+    }
+    body .secondaryText{
+        color: #f1f1f1bb;
+    }
+    .btnSecondary{
+        background-color: #252525;
+        color: #f1f1f1;
     }
 }
