@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+body h1{
+    color: #161616;
+}
+body .secondaryText{
+    color: #161616bb;
+}
+.lotteryContainer{
+    margin-top: 1rem;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+    padding: 1rem 0;
+}
+.lotteryContainer .bTicket{
+    max-width: 270px;
+    position: relative;
+    cursor: pointer;
+}
+.lotteryContainer .ltTicket{
+    width: 100%;
+}
+.lotteryContainer .bTicket .txtID{
+    position: absolute;
+    top:50%;
+    right: 5%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #1616168a;
+}
+.lotteryContainer input[type="radio"]{
+    display: none;
+}
+.lotteryContainer input[type="radio"] + label{
+    transition: filter 400ms ease;
+    filter: grayscale(1);
+}
+.lotteryContainer input[type="radio"]:checked + label{
+    filter: grayscale(0);
+}
+.btn{
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4pt;
+    background-color: rgb(109, 41, 136);
+    color: #ffffff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: transform 400ms ease;
+}
+.btn:hover,
+.btn:focus{
+    box-shadow: inset 0 0 0 2pt #00000040;
+    outline: none;
+    
+}
+.btn:active{
+    transform: translateY(2px);
+    transition: none;
+}
+.actions{
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.btnSecondary{
+    background-color: #e2e2e2;
+    color: #161616;
+}
+.res{
+    min-width: 400px;
+}
