@@ -109,6 +109,9 @@ body .secondaryText{
         width: 100%;
         padding: 1rem 1.4rem;
     }
+    body{
+        text-align: center;
+    }
 }
 @media (prefers-color-scheme: dark) {
     body{
