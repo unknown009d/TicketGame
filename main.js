@@ -36,14 +36,14 @@ let getLottery = el => {
         {
             ltForm.innerHTML = `
                 <div>
-                    <p style="color: #31a314; font-size: 1.2rem">${txtRes}</p><br>
+                    <p style="color: #31a314;">${txtRes}</p><br>
                     <img src='winner.gif' class="res">
                 </div>
             `;
         }else{
             ltForm.innerHTML = `
                 <div>
-                    <p style="color: #b82020; font-size: 1.2rem">${txtRes}</p><br>
+                    <p style="color: #b82020;">${txtRes}</p><br>
                     <img src='lose.gif' class="res">
                 </div>
             `;
@@ -53,7 +53,7 @@ let getLottery = el => {
     else {
         ltForm.innerHTML = `
                 <div>
-                    <p style="color: #b82020; font-size: 1.2rem">Please select an ticket...</p><br>
+                    <p style="color: #b82020;">Please select an ticket...</p><br>
                     <img src='dance.gif' class="res">
                 </div>
             `;
