@@ -88,5 +88,22 @@ body .secondaryText{
     color: #161616;
 }
 .res{
-    min-width: 400px;
+    width: 350px;
+}
+@media only screen and (max-width: 512px) {
+    .res{
+        width: 100%;
+    }   
+    .lotteryContainer{
+        grid-template-columns: repeat( auto-fit, minmax(120px, 1fr));
+    }
+    .actions{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .actions .btn{
+        width: 100%;
+    }
 }
