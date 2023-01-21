@@ -13,5 +13,5 @@ This contains plain html, css and a small sprinkle of javascript. You can visit 
 Visit the [page](https://unknown009d.github.io/TicketGame/) and select any ticket, it will highlight itself, if you are satisfied with the ticket proceed using pressing Find out the lucky number. A final result page will open which has a gif image of a winner or loser depending on the random ticket number.
 
 # Screenshot
-![Home Page](Ss.webp)
+![Home Page](Ss.jpg)
 _Screenshot may vary from the actual website depending on your theme preference. Haha, yes dark mode is available, so that it doesn't burn your eyes at the middle of the night 😆_
