@@ -1,4 +1,6 @@
 # Lottery Ticket Game 🏆
+##### *Wont get any real prizes though*
+ 
 This was a simple super fast practice project of creating an lottery game. So i came up with this idea of creating a ticket. These tickets were made using [figma](https://figma.com), and imported to code using SVG. 
 
 It contains no backend, it is solely focused on User Interface/Experience. Also, it is a single page application there's no redirections on this page.
